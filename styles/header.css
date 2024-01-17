@@ -1,0 +1,185 @@
+.header{
+  height:64px;
+  width:100%;
+  padding:12px 0;
+  background-color: black;
+}
+
+.header-container{
+  height:40px;
+  margin:0 55.6px;
+  padding:0 64px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.header-link-1{
+margin-left:0;
+min-width: fit-content;
+display: flex;
+justify-content: space-between;
+color:white;
+row-gap: 12px;
+
+
+}
+
+
+.uber{
+  font-size: 24px;
+  font-weight: 500;
+  margin-top:9px;
+}
+.company-button{
+  border-radius: 30px;
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+  height:36px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:113.46px;
+  margin-left: 12px;
+ align-items: center;
+}
+.U{
+  font-size: 33px;
+}
+.company-button option{
+  background-color: rgb(183, 180, 180);
+}
+
+.company-button:hover{
+background-color: rgba(225, 217, 225, 0.914);
+}
+
+.safety-button{
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:fit-content;
+  margin-left: 12px;
+  align-items: center;
+}
+.safety-button:hover{
+background-color: rgba(225, 217, 225, 0.914);
+}
+.help-button{
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:fit-content;
+  margin-left: 12px;
+  align-items: center;
+}
+.help-button:hover{
+background-color: rgba(225, 217, 225, 0.914);
+}
+.header-link-2{
+  margin-right: 0;
+  min-width: fit-content;
+display: flex;
+justify-content: space-between;
+color:white;
+row-gap: 12px;
+  }
+
+.en-button{
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:fit-content;
+  margin-left: 12px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
+.en-button:hover{
+  background-color: rgba(225, 217, 225, 0.914);
+}
+.en-button svg{
+  height:15px;
+  width:15px;
+
+}
+.product-button{
+  border-radius: 30px;
+  background-color: transpaproductt;
+  border-color: transpaproductt;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:fit-content;
+  margin-left: 12px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
+.product-button:hover{
+  background-color: rgba(225, 217, 225, 0.914);
+}
+.product-button svg{
+  height:15px;
+  width:15px;
+
+}
+
+.login-button{
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:white;
+  width:fit-content;
+  margin-left: 12px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+  cursor:pointer;
+}
+.login-button:hover{
+  background-color: rgba(225, 217, 225, 0.914);
+}
+
+.signup-button{
+  border-radius: 30px;
+  background-color: white;
+  border-color: transpaproductt;
+  cursor: pointer;
+  height:15px;
+  margin-top: 12px;
+  padding:10px 12px;
+  color:black;
+  width:fit-content;
+  margin-left: 12px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
